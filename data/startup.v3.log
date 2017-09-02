@@ -1,0 +1,69 @@
+àRd 38ee
+Rd 38ee
+Rd 38ee
+Rd 38ee
+Rd 38ee
+Rd 38ee
+Rd 38ee
+Rd 38ee
+Rd 38ee
+Rd 38ee
+Mem Addr (0x3a6) 0
+Mem Addr (0x340) 2a45
+Mem Addr (0x342) 2b89
+Mem Addr (0x344) 1121
+Mem Addr (0x346) 1
+Mem Addr (0x348) a2
+Mem Addr (0x34a) 38ee
+Mem Addr (0x34e) 0
+Mem Addr (0xb4) 22f8
+Timer Init
+version: 7.1.2.0.11.20161116 ÐÇÆÚÈý
+iic clock 200000 !
+HDMITX I2C Read error, reg = 02
+regDeviceID:0x7
+---Disable HDMITx---
+(382), threshold[0][0] = 0x4da, threshold[0][1] = 0x5b3
+(382), threshold[1][0] = 0x40b, threshold[1][1] = 0x4c0
+(382), threshold[2][0] = 0x67, threshold[2][1] = 0x79
+(382), threshold[3][0] = 0xce, threshold[3][1] = 0xf2
+(382), threshold[4][0] = 0xb53, threshold[4][1] = 0x3ff
+audio queue_id: 1
+video queue_id: 2
+MPS_COMMAND_SET_CAPTURE_DEVICE 3 mode 5
+MPS_COMMAND_SET_ISP_MODE 0
+channel name: AIR_CH_521_6M
+--xcpu init--
+cmd info addr: 0x2c1e848
+ir data buf addr: 0x2c1f450
+ir data write porinter: 0x2c1e658
+[MainLoop] *irdataddr: 0x2c1f450, *irwptrddr: 0x2c1e658
+[MainLoop] irwptr: 0x2c1e658, irbuf: 0x2c1f450
+scg_0_*********
+alloc addr: 0x2C209B8, buffer start: 0x2C209B8
+tsbitrate: 23751336
+after setting: 0x8001, tsoDivider: 1, oriClock: 800, tsBitRate: 80000000, tsoMBitRate: 80
+tso out byte rate: 10000000 Bps, null count: 0
+pcrClockSrc: 0, pcrDivider: 4
+oriClock: 800, clockDivider: 5, pllClock: 160.000000
+pcr clock: 40.000000
+Enable Hw pcr
+tso.c(199), PCR clock : 40.000000 Mhz, regVal: 0xA0
+set gpio 13
+start write buffer: 0x2C209B8
+injectBound: 1063, tso: 10000000, period: 20, injectTime: 1800
+90K value per 188 packet: 1, tick in micro: 200
+pcr Pid: 0x7D1
+service 0: video: 0x7D1, audio: 0x7D2
+PCR Pid: 0x7D1 is video pid
+9919 Block = 1, (0)
+change device ID(3)
+AspectRatio src = 0, 0, 0, 0, dst = 0, 0, 1280, 720
+Index 8 W 1280 H 720 B 12000 De 0 0 S 0 GOP 120 AS 0
+AV_SYNC_TIMER_INIT -- baseTime = 0
+dur(17) frame rate(6) = (0)
+Frame rate 6
+Encode w 1280 h 720 b 12000 deinter 0 0 fps 6
+AV_SYNC_DO_SYNC_INIT Vid 66  Aud 50 FR 0 FP 0 initDiff 0
+First Out Video Timestamp: 316
+threshold byte rate: 1228800, per frame size: 20480 bytes
